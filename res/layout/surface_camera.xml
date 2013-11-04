@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/surface_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="250px"
+        android:layout_alignParentLeft="true" >
+    </SurfaceView>
+
+    <Button
+        android:id="@+id/button_send_img"
+        android:layout_width="80px"
+        android:layout_height="40px"
+        android:layout_below="@id/surface_camera"
+        android:text="Save" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_new"
+        android:layout_width="80px"
+        android:layout_height="40px"
+
+        android:layout_alignBottom="@+id/button_send_img"
+        android:layout_alignParentRight="true"
+        android:text="New" />
+
+</RelativeLayout>

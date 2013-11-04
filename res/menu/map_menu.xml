@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/record"
+          android:title="Record" >
+    </item>
+    <item android:id="@+id/save"
+          android:title="Save" >
+    </item>
+    <item android:id="@+id/share"
+          android:title="Share" >
+    </item>
+        <item android:id="@+id/load"
+          android:title="Load" >
+    </item>
+    <item android:id="@+id/pause"
+          android:title="Pause/Start" >
+    </item>
+    <item android:id="@+id/stop"
+          android:title="Stop" >
+    </item>
+</menu>
